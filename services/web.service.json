@@ -1,0 +1,16 @@
+{
+  "service": {
+    "name": "web",
+    "port": 8080,
+    "checks": [
+      {
+        "http": "http://localhost:8080",
+        "interval": "10s"
+      },
+      {
+        "script": "/vagrant/provision/hc/cpu_utilization.sh",
+        "interval": "5s"
+      }
+    ]
+  }
+}
