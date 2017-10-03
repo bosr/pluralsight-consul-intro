@@ -1,4 +1,4 @@
-vagrant up
+source repo: https://github.com/g0t4/consul-getting-started
 
 on mac:
 
