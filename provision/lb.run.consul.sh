@@ -17,5 +17,6 @@ consul kv put prod/portal/haproxy/
 consul kv put prod/portal/haproxy/maxconn 4096
 consul kv put prod/portal/haproxy/timeout-connect 5s
 consul kv put prod/portal/haproxy/timeout-client 50s
+consul kv put prod/portal/haproxy/timeout-server 50s
 consul kv put prod/portal/haproxy/stats enable
 consul kv put prod/portal/haproxy/stats-uri /haproxy
